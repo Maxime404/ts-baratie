@@ -25,12 +25,12 @@ Hi, here are some rules to carry out this story oav;
 }$
 ```
 
-> Of course, you can talk about the subject with other developers, peer-learning is
+> Of course, you can talk about the subject with other groups, peer-learning is
 > the key to be a better developer. Don't hesitate to ask questions or help people on slack.
 
 > Don't forget, there is no useless question :-)
 
-* You **MUST** return the project on Tuesday March, 31 at 23:42 pm by sending an MP on slack with the link of your github repo.
+* You **MUST** return the project on Tuesday March, 07 at 23:42 pm by sending an MP on teams with the link of your github repo.
 
 Your repository **MUST** contain the totality of your source files, but no useless files (node_modules, temp files, log files,...).
 
