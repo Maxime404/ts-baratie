@@ -1,0 +1,33 @@
+{
+  "name": "ts-baratie",
+  "version": "1.0.0",
+  "description": "Kitchen",
+  "main": "index.js",
+  "repository": "https://github.com/Maxime404/pp-baratie.git",
+  "author": "Maxime404 <galissairemaxime24@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn nodemon",
+    "test": "yarn tsc",
+    "clean": "yarn rimraf .dist",
+    "build": "yarn clean && yarn babel src/ --out-dir .dist --extensions '.ts' --quiet",
+    "start": "yarn build && node .dist/main"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/node": "^14.14.31",
+    "ts-node": "^8.7.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.7",
+    "cluster": "^0.7.7",
+    "nodemon": "^2.0.7",
+    "os": "^0.1.1",
+    "rimraf": "^3.0.2"
+  }
+}
